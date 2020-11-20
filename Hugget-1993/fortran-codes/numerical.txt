@@ -1,0 +1,11 @@
+1e-3		! Numerical tolerance asset market equilibrium
+1e-5		! Numerical tolerance VF iteration
+0.96		! Discount rate
+-1.0   		! Minimum assets
+5.0  		! Maximum assets
+250 		! Grid points for assets
+0.95	 	! Low productivity
+1.05 		! High productivity
+0.90	    ! Persistency
+5000		! Number of periods
+1000 		! Number of agents

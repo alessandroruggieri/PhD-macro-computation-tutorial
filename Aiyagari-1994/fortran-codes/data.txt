@@ -1,0 +1,11 @@
+77.16	! Single Women E/pop
+18.29	! Single Women O/pop
+96.84	! Single Women E-E
+1.24	! Single Women E-U
+1.92	! Single Women E-O
+24.17	! Single Women U-E
+54.79	! Single Women U-U
+21.04	! Single Women U-O
+7.10	! Single Women O-E
+4.68	! Single Women O-U
+88.22	! Single Women O-O

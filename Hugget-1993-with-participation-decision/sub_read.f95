@@ -1,7 +1,7 @@
 subroutine sub_read
     use globals
     implicit none
-    integer :: i, j ! Declare internal variables
+    !integer :: i, j ! Declare internal variables
     open(unit = 1, file = 'numerical.txt')
     read(1,*) tolk      ! Numerical tolerance asset market equilibrium
     read(1,*) tolV      ! Numerical tolerance VF iteration
@@ -20,13 +20,13 @@ subroutine sub_read
     read(2,*) alpha     ! Working disutility
     read(2,*) rho       ! Persistence parameter
     close(2)
-    open(unit = 3, file = "data.txt")
-    read(3,*) dta_Epop
-    read(3,*) dta_Opop
-    do i = 1, 3
-        do j = 1, 3
-            read(3,*) dta_trans(i,j)
-        enddo
-    enddo
-    close(3)
+    !open(unit = 3, file = "data.txt")
+    !read(3,*) dta_Epop
+    !read(3,*) dta_Opop
+    !do i = 1, 3
+    !    do j = 1, 3
+    !        read(3,*) dta_trans(i,j)
+    !    enddo
+    !enddo
+    !close(3)
 end subroutine sub_read

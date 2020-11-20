@@ -16,7 +16,7 @@ program main
     call sub_equilibrium
 
 ! Print model output
-    call sub_print
+   call sub_print
 
 ! Display employed time
     call system_clock( t2, clock_rate, clock_max)
